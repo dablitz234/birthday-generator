@@ -1,0 +1,145 @@
+body {
+  /* background-image: url("gettyimages-1140148670.webp"); */
+  background-color: whitesmoke;
+}
+.header {
+  padding: 40px;
+  display: block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  text-align: center;
+  background: #e7901e;
+  color: white;
+  font-size: 20px;
+  z-index: 1;
+  position: relative;
+  margin-top: -10px;
+  margin-left: -20px;
+  margin-right: -20px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+#footballbirthday {
+  text-align: center;
+  border: 3px solid black;
+  padding-bottom: 5px;
+  height: 210px;
+  width: 200px;
+  background-color: #e7901e;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+}
+#WYB {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  color: #fff;
+}
+#birthday {
+  margin-top: 40px;
+}
+#submit {
+  background-color: #fff;
+  box-shadow: rgba(255, 255, 255, 0.7) 0px 1px 0px 0px inset;
+  box-sizing: border-box;
+  color: rgb(57, 115, 157);
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.15385;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(122, 167, 199);
+  border-image: initial;
+  margin: 0px;
+  outline: none;
+  padding: 8px 0.8em;
+  text-decoration: none;
+}
+.Socials {
+  size: 20cm;
+  text-align: left;
+  margin-top: 10px;
+}
+#factoftheday {
+  text-align: center;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  border: 3px solid black;
+  padding-bottom: 5px;
+  height: 300px;
+  width: 250px;
+  background-color: #e7901e;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: -16em;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.grid {
+  width: calc(60vw + 30px);
+  display: inline-block;
+  position: fixed;
+  background-color: lightgray;
+  perspective: 1000px;
+}
+.griditem {
+  display: block;
+  width: 20vw;
+  margin: 5px;
+  height: 20vw;
+  float: left;
+}
+.front {
+  width: 100%;
+  height: 100%;
+  background: #fff
+    url("http://www.popsci.com/sites/popsci.com/files/styles/large_1x_/public/import/2013/images/2013/03/bluemarble_1.jpg?itok=-IIyWZZX")
+    no-repeat;
+  background-attachment: fixed;
+  background-position: top left;
+  background-size: cover;
+  transform: rotateY(0deg);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  transform: rotateY(180deg);
+  background: #fff
+    url("http://www.dentoncorkermarshall.com/wp-content/uploads/2013/12/Asia-Square-06.jpg?x92178")
+    no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.griditem:hover .front {
+  transform: rotateY(180deg);
+  transition: 0.4s ease-in-out;
+}
+.griditem:hover .back {
+  transform: rotateY(0deg);
+  transition: 0.4s ease-in-out;
+}

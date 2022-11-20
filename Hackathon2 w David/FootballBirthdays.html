@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Birthdays</title>
+    <link rel="stylesheet" href="./FootballBirthday.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="Socials">
+        <a href="https://www.tiktok.com/@halftimeorangeuk"
+          ><img
+            width="44px"
+            height="30px"
+            src="./tik-tok-how-use-tiktok-create-cool-videos-with-iphone-14.png"
+            alt=""
+        /></a>
+        <ion-icon name="logo-tiktok"></ion-icon>
+        <a href="https://twitter.com/htorangeuk?lang=ar-x-fm"
+          ><img
+            width="36px"
+            height="30px"
+            src="./twitter-logo-vector-png-clipart-1.png"
+            alt=""
+        /></a>
+        <ion-icon name="logo-twitter"></ion-icon>
+      </div>
+      <h1>Which footballers share my birthday?</h1>
+      <p>
+        Find out your best team of footballers and compare it with your friends!
+      </p>
+    </div>
+    <div id="footballbirthday">
+      <br />
+      <label for="birthday" id="WYB">What's your Birthday?</label>
+      <form action="/action_page.php">
+        <input type="date" id="birthday" name="birthday" />
+        <br />
+        <br />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+    <div id="factoftheday">
+      <button id="btn" onclick="generateFacts()">Click for a fun fact!</button>
+      <div id="here"></div>
+      <script src="./facts.js"></script>
+    </div>
+ </div>
+    <script src="./FootballBirthdays.js"></script>
+  </body>
+</html>
